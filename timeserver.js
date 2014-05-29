@@ -1,6 +1,10 @@
 // Parameters: port
 // Output format YYYY-MM-DD hh:mm, zero-filled to two integers
 
+// USAGE
+// 1. $ node timeserver.js <port>
+// 2. $ telnet localhost <port>
+
 net = require('net');
 
 function pad(n) {
